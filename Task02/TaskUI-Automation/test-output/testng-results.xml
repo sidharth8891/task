@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="11" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateInvalidPasswordErrMsg_1if2gkkudov7y.png'>View Screenshot</a><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateInvalidUsernameErrMsg_1908q6e3djnlm.png'>View Screenshot</a><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateLogin_7wddhjwj8bqk.png'>View Screenshot</a><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateWelcomeMessage_64qmhzfxf84z.png'>View Screenshot</a><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateOptions_1823zkhvjkggk.png'>View Screenshot</a><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateCreateUser_1kn67hbe9eph8.png'>View Screenshot</a><br/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation test cases for IX Onespace" duration-ms="169921" started-at="2020-03-19T17:30:57 IST" finished-at="2020-03-19T17:33:47 IST">
+    <groups>
+    </groups>
+    <test name="Automation Test Cases" duration-ms="169921" started-at="2020-03-19T17:30:57 IST" finished-at="2020-03-19T17:33:47 IST">
+      <class name="com.task.automation.test.HomeScreen">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="36" started-at="2020-03-19T17:32:10 IST" finished-at="2020-03-19T17:32:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_validateWelcomeMessage()[pri:1, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="TC_validateWelcomeMessage" duration-ms="14222" started-at="2020-03-19T17:32:11 IST" description="Verify welcome message" finished-at="2020-03-19T17:32:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_validateWelcomeMessage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="afterMethod" is-config="true" duration-ms="10450" started-at="2020-03-19T17:32:25 IST" finished-at="2020-03-19T17:32:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_validateWelcomeMessage status=SUCCESS method=HomeScreen.TC_validateWelcomeMessage()[pri:1, instance:com.task.automation.test.HomeScreen@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateWelcomeMessage_64qmhzfxf84z.png'>View Screenshot</a><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="35" started-at="2020-03-19T17:32:35 IST" finished-at="2020-03-19T17:32:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_validateOptions()[pri:2, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="TC_validateOptions" duration-ms="13266" started-at="2020-03-19T17:32:35 IST" description="Verify create/edit/delete" finished-at="2020-03-19T17:32:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_validateOptions -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="afterMethod" is-config="true" duration-ms="10460" started-at="2020-03-19T17:32:49 IST" finished-at="2020-03-19T17:32:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_validateOptions status=SUCCESS method=HomeScreen.TC_validateOptions()[pri:2, instance:com.task.automation.test.HomeScreen@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateOptions_1823zkhvjkggk.png'>View Screenshot</a><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="38" started-at="2020-03-19T17:32:59 IST" finished-at="2020-03-19T17:32:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_validateCreateUser()[pri:3, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="TC_validateCreateUser" duration-ms="14630" started-at="2020-03-19T17:32:59 IST" description="Verify createuser" finished-at="2020-03-19T17:33:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_validateCreateUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="afterMethod" is-config="true" duration-ms="10443" started-at="2020-03-19T17:33:14 IST" finished-at="2020-03-19T17:33:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_validateCreateUser status=SUCCESS method=HomeScreen.TC_validateCreateUser()[pri:3, instance:com.task.automation.test.HomeScreen@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateCreateUser_1kn67hbe9eph8.png'>View Screenshot</a><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="22" started-at="2020-03-19T17:33:24 IST" finished-at="2020-03-19T17:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_validateDeleteUser()[pri:4, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="TC_validateDeleteUser" duration-ms="11590" started-at="2020-03-19T17:33:24 IST" description="Verify deleteuser" finished-at="2020-03-19T17:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_validateDeleteUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.task.automation.test.HomeScreen@15d0c81b]" name="afterMethod" is-config="true" duration-ms="10027" started-at="2020-03-19T17:33:36 IST" finished-at="2020-03-19T17:33:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_validateDeleteUser status=SUCCESS method=HomeScreen.TC_validateDeleteUser()[pri:4, instance:com.task.automation.test.HomeScreen@15d0c81b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.task.automation.test.HomeScreen -->
+      <class name="com.task.automation.test.SignIn">
+        <test-method status="PASS" signature="config(java.lang.String, java.lang.String)[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="config" is-config="true" duration-ms="208" started-at="2020-03-19T17:30:56 IST" finished-at="2020-03-19T17:30:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Optional name Automation ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation Report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="beforeTest" is-config="true" duration-ms="15381" started-at="2020-03-19T17:30:57 IST" finished-at="2020-03-19T17:31:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="beforeMethod" is-config="true" duration-ms="39" started-at="2020-03-19T17:31:12 IST" finished-at="2020-03-19T17:31:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_validateInvalidPasswordErrMsg()[pri:1, instance:com.task.automation.test.SignIn@74650e52]" name="TC_validateInvalidPasswordErrMsg" duration-ms="11329" started-at="2020-03-19T17:31:12 IST" description="Verify Login error message with invalid password" finished-at="2020-03-19T17:31:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_validateInvalidPasswordErrMsg -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="afterMethod" is-config="true" duration-ms="10594" started-at="2020-03-19T17:31:23 IST" finished-at="2020-03-19T17:31:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_validateInvalidPasswordErrMsg status=SUCCESS method=SignIn.TC_validateInvalidPasswordErrMsg()[pri:1, instance:com.task.automation.test.SignIn@74650e52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateInvalidPasswordErrMsg_1if2gkkudov7y.png'>View Screenshot</a><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="beforeMethod" is-config="true" duration-ms="24" started-at="2020-03-19T17:31:34 IST" finished-at="2020-03-19T17:31:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_validateInvalidUsernameErrMsg()[pri:2, instance:com.task.automation.test.SignIn@74650e52]" name="TC_validateInvalidUsernameErrMsg" duration-ms="7277" started-at="2020-03-19T17:31:34 IST" description="Verify Login error message with invalid username" finished-at="2020-03-19T17:31:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_validateInvalidUsernameErrMsg -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="afterMethod" is-config="true" duration-ms="10482" started-at="2020-03-19T17:31:41 IST" finished-at="2020-03-19T17:31:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_validateInvalidUsernameErrMsg status=SUCCESS method=SignIn.TC_validateInvalidUsernameErrMsg()[pri:2, instance:com.task.automation.test.SignIn@74650e52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateInvalidUsernameErrMsg_1908q6e3djnlm.png'>View Screenshot</a><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="beforeMethod" is-config="true" duration-ms="30" started-at="2020-03-19T17:31:52 IST" finished-at="2020-03-19T17:31:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_validateLogin()[pri:3, instance:com.task.automation.test.SignIn@74650e52]" name="TC_validateLogin" duration-ms="7987" started-at="2020-03-19T17:31:52 IST" description="Verify Login with valid credentials" finished-at="2020-03-19T17:32:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_validateLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="afterMethod" is-config="true" duration-ms="10659" started-at="2020-03-19T17:32:00 IST" finished-at="2020-03-19T17:32:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_validateLogin status=SUCCESS method=SignIn.TC_validateLogin()[pri:3, instance:com.task.automation.test.SignIn@74650e52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br/><a href='C:\Task\.\target\surefire-reports\screenshots\TC_validateLogin_7wddhjwj8bqk.png'>View Screenshot</a><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="afterTest" is-config="true" duration-ms="826" started-at="2020-03-19T17:33:46 IST" finished-at="2020-03-19T17:33:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.task.automation.test.SignIn@74650e52]" name="endReport" is-config="true" duration-ms="12666" started-at="2020-03-19T17:33:47 IST" finished-at="2020-03-19T17:33:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.task.automation.test.SignIn -->
+    </test> <!-- Automation Test Cases -->
+  </suite> <!-- Automation test cases for IX Onespace -->
+</testng-results>
